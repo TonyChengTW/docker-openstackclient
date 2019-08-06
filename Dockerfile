@@ -9,7 +9,7 @@ RUN pip install virtualenv
 
 COPY .bashrc /root
 COPY install_openstackclient.sh /root
-COPY admin-openrc.sh /root
+COPY openrc.sh /root
 COPY upper-constraints.txt /root
 RUN /root/install_openstackclient.sh
 
